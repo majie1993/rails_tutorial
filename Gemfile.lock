@@ -11,7 +11,7 @@ GIT
     rails_log_stdout (0.0.1)
 
 GEM
-  remote: https://rubygems.org/
+  remote: http://ruby.taobao.org/
   specs:
     actionmailer (4.0.0)
       actionpack (= 4.0.0)
@@ -61,6 +61,11 @@ GEM
     diff-lcs (1.2.4)
     erubis (2.7.0)
     execjs (2.0.1)
+    factory_girl (4.2.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.2.1)
+      factory_girl (~> 4.2.0)
+      railties (>= 3.0.0)
     ffi (1.9.0)
     hike (1.2.3)
     i18n (0.6.5)
@@ -77,6 +82,7 @@ GEM
     mini_portile (0.5.1)
     minitest (4.7.5)
     multi_json (1.7.9)
+    newrelic_rpm (3.6.9.171)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
     pg (0.15.1)
@@ -160,8 +166,10 @@ DEPENDENCIES
   bootstrap-sass (= 2.3.2.0)
   capybara (= 2.1.0)
   coffee-rails (= 4.0.0)
+  factory_girl_rails (= 4.2.1)
   jbuilder (= 1.0.2)
   jquery-rails (= 2.2.1)
+  newrelic_rpm
   pg (= 0.15.1)
   rails (= 4.0.0)
   rails3_serve_static_assets!
